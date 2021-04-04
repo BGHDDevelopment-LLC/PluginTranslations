@@ -1,10 +1,12 @@
-# BGHDDevelopment LLC PluginTranslations
+# BGHDDevelopment LLC Plugin Translations
 Welcome to the BGHDDevelopment LLC plugin translation repository!
 
 Here you can find the home for all our plugin translations and even create some yourself!
 
 # Supported Plugins
 Currently, the following plugins use this translation repository.
+
+The plugins will download updated languages on each restart.
 
 - FateUHC (Pending)
 - FateMeetup (Pending)
