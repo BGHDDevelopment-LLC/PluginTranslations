@@ -1,1 +1,99 @@
 #This file is the default. Do not modify this file. Please create a PR in the translations folder to add a language following the contribution guide.
+#Plugin created by BGHDDevelopment. httsp://bghddevelopment.com
+#Please contact us if you need help: https://bghddevelopment.com/discord
+
+JOIN_MESSAGE: '&d<player> &fjoined the game. &7[&d<current_online>/<max_players>&7]'
+JOINMESSAGE:
+  ENABLED: true
+LEAVE_MESSAGE: '&d<player> &fleft the game. &7[&d<current_online>/<max_players>&7]'
+LEAVEMESSAGE:
+  ENABLED: true
+JOIN_MOTD: '&dWelcome to the UHC Meetup server! &fType /vote to vote for scenarios!'
+JOINMOTD:
+  ENABLED: true
+START_MESSAGE:
+  - '&7&m----------------------------'
+  - '&eThe game has been started.'
+  - '&eGood Luck and Have Fun!'
+  - ''
+  - '&4&lThis is FFA game and teaming is not allowed.'
+  - '&4&lTry playing on your own and don''t avoid this rule!'
+  - '&7&m----------------------------'
+  - '&eCurrent scenarios enabled&7: &9<scenarios>'
+BORDER:
+  START_SHRINK: '&eThe world border will start shrinking every &d<minutes> &eminutes, by &d<blocks> &eblocks, until &d<until>&ex&d<until>&e.'
+  WILL_SHRINK: '&eThe border will be reduced in &d<time> <time_format>&e.'
+  SHRINKED: '&eThe border has been reduced to &d<radius>x<radius>&e.'
+ACTION_NOT_ALLOWED_IN_STATE: '&eYou can''t do this in your current state.'
+START_TASK_CANCELLED: '&eGame will not start since there is no enough players to start.'
+ALREADY_VOTED: '&eYou have already voted for &d<voted_scenario>&e.'
+SUCCESSFULLY_VOTED: '&eYou have &asuccessfully &evoted for &d<voted_scenario>&e.'
+SUCCESSFULLY_UNVOTED: '&eYou have &asuccessfully &eunvoted this scenario.'
+NOT_VOTED: '&eYou didn''t voted for this scenario.'
+TIME_BOMB_EXPLODED: '&8[&eTimeBomb&8] &d<name>''s &eCorpse has just exploded.'
+ELO:
+  TO_VICTIM:
+    - '&eYou were killed by &4&l<killer_name> &eand &4&lLOST &c<lost_elo> &eelo.'
+    - '&eNew elo is &4&l<new_elo>'
+  TO_KILLER:
+    - '&eYou killed &4&l<victim_name> &eand &4&lRECEIVED &c<received_elo> &eelo.'
+    - '&eNew elo is &4&l<new_elo>'
+  COMMAND:
+    OTHER: '&d<target>''s &eelo is &d<target_elo>'
+    YOURSELF: '&eYour elo is &d<elo>'
+TELEPORT_RANDOM_PLAYER: '&eYou have been randomly teleported to &d<random_player>'
+KITS:
+  CREATED: '&eYou have &asuccessfully &ecreated a new kit with number &9#<kit_number>'
+  DELETED: '&eYou have &asuccessfully &edeleted a kit with number &9#<kit_number>'
+  LOADED: '&eKit number &9#<kit_number> &ehas been set to your inventory.'
+  RECEIVED: '&eYou have received a random kit with number &9#<kit_number>&e.'
+  ENABLED: true #Change this to false to disable the Received Message.
+ERRORS:
+  COMMANDS:
+    GAME_STATE_ERROR: '&cThis command can''t be execute in the current game state.'
+    PLAYER_STATE_ERROR: '&cYou can''t execute this command in your current state.'
+  OTHER:
+    NO_PLAYERS_ALIVE: '&cThere are no players alive at the moment'
+    NO_LAST_PVP_FOUND: '&cWe couldn''t find last pvp location for you.'
+    NO_RANDOM_PLAYER_FOUND: '&cFailed to find a player to teleport to.'
+FREEZE:
+  ACTION_NOT_ALLOWED: '&cYou can''t do this while frozen.'
+  COMMAND_NOT_ALLOWED: '&cYou can''t use this command while frozen.'
+  STAFF:
+    FREEZE_MESSAGE: '&d<target> &ehas been frozen by &d<player>&e.'
+    UNFREEZE_MESSAGE: '&d<target> &ehas been unfrozen by &d<player>&e.'
+  LEFT_FROZEN:
+    - '&7&m---------------------'
+    - '&4&l<player> &cjust left while frozen!'
+    - '&7&m---------------------'
+  PLAYER:
+    FREEZE_MESSAGE:
+      - '&7&m----------------------------'
+      - '&cYou have been &4&lFROZEN &cby staff member'
+      - '&eYou have 3 minutes to respond and join the teamspeak'
+      - ''
+      - '&cTeamspeak ip: &bts.fatemeetup.com'
+      - '&7&m----------------------------'
+    UNFREEZE_MESSAGE: '&eYou have been unfrozen by a staff member.'
+WIN_MESSAGE:
+  - ''
+  - '&a(Winner) &9<winner>'
+  - '&a(Winner) &9<winner>'
+  - '&a(Winner) &9<winner>'
+  - ''
+MEETUP_FINISHED_KICK_MESSAGE: '&cUHCMeetup finished'
+DATA_SAVED: '&aPlayer data has been successfully saved!'
+LEADERBOARDS_NOT_ENABLED: '&cLeaderboards are currently disabled.'
+ARROW_SHOT: '&d<target> &eis now at &d<health> &4&l<health_symbol>'
+LOADING_MESSAGE: 'World is loading!'
+NOCLEAN:
+  MESSAGE: '&7[&7NoClean&7] &7<player> has &6NoClean &7for another &6<time> &7seconds.'
+  REMOVECOOLDOWN: '&7[&7NoClean&7] &7Your &6NoClean &7has been removed since you hit &6<player>&7!'
+  GAINED: '&7[&7NoClean&7] &7You have received &6NoClean &7for &6<time> &7seconds.'
+  REMOVED: '&7[&7NoClean&7] &7Your &6NoClean &7has been removed.'
+GAMESTARTING: '&eGame starting in &f<time> &eseconds!'
+KIT_EDITOR_MODE:
+  ENABLED: "&aKit editor mode has been turned on, you can now move items around."
+  DISABLED: "&cKit editor mode has been turned off, you received your join items."
+REROLLS_LEFT: "&eRerolls left &f<rerolls>&e!"
+REROLL_MESSAGE: "&eYou've received random kit. &7[Click here to reroll]"
