@@ -1,1 +1,529 @@
 #This file is the default. Do not modify this file. Please create a PR in the translations folder to add a language following the contribution guide.
+CANT_BREAK_BLOCKS: '&cYou can''t break blocks in your current state.'
+NO_PERMISSION: '&cNo permission.'
+CANT_PLACE_BLOCKS: '&cYou can''t place blocks in your current state.'
+STATE_ERROR: '&cYou can''t do that in your current state.'
+COMMAND_DISABLED: '&cCommand has been disabled.'
+CANT_BREAK_GLASS: '&cYou can''t break this glass.'
+CANT_SPEC_UNDER: '&cYou can''t spectate under y:45.'
+CANT_BED_NETHER: '&cYou can''t place beds in nether.'
+CANT_SCATTER: '&cLocation unfit for scatter, finding new location...'
+CONFIG_CHANGE:
+  TOGGLEABLE:
+    ENABLED: '{prefix} &a{configName} &ehas been &fenabled &eby &a{player}&e.'
+    DISABLED: '{prefix} &a{configName} &ehas been &fdisabled &eby &a{player}&e.'
+  INTEGER: '{prefix} &a{configName} &ehas been set to &a{newValue} &eby &a{player}&e.'
+  EDIT: '{prefix} &fYou can''t edit this config now. &c(Lobby mode only)'
+  CANTEDITINGAME: '{prefix} &cThis config is not editable in game. &c(uhcconfiguration.yml)'
+  ENTERAMOUNT: '{prefix} &aEnter the amount you want to set for this config.'
+  CANCELED: '&eConfig procedure has been cancelled successfully.'
+SCENARIO:
+  ENABLED: '{prefix} &a{scenario} &escenarios has been &fenabled &eby &a{player}&e.'
+  DISABLED: '{prefix} &a{scenario} &escenarios has been &fdisabled &eby &a{player}&e.'
+  LOBBY-ONLY: '&cThis scenario can be edited in lobby only!'
+  MOLES-TEAM-DISABLED: '&cYou can''t enable moles while teams are disabled!'
+  DIAMOND-LESS: '&eYou can''t mine diamonds, gamemode &c''Diamondless'' &eis active.'
+  GOLD-LESS: '&eYou can''t mine gold, gamemode &c''Goldless'' &eis active.'
+  IRON-LESS: '&eYou can''t mine iron, gamemode &c''Ironless'' &eis active.'
+  DIAMOND-LIMITATIONS: '&eYou can''t mine diamonds, gamemode &c''Limitations'' &eis
+    active and you''ve reached the limit.'
+  GOLD-LIMITATIONS: '&eYou can''t mine gold, gamemode &c''Limitations'' &eis active
+    and you''ve reached the limit.'
+  IRON-LIMITATIONS: '&eYou can''t mine iron, gamemode &c''Limitations'' &eis active
+    and you''ve reached the limit.'
+  DIAMOND-BAREBONES: '&eYou can''t mine diamonds, gamemode &c''BareBones'' &eis active.'
+  CRAFT-LIMITEDENCHANTS: You can't craft that item because &c&lLimitedEnchants &cscenario is active.
+  CRAFT-SWORDLESS: You can't craft that item because &c&lSwordLess &cscenario is active.
+  CRAFT-BAREBONES: '&cYou can''t craft that item because &c&lBareBones &cscenario
+    is active.'
+  NO-DIAMOND-ARMOR: '&cYou can''t craft that item because &c&lNo Diamond Armor &cscenario
+    is active.'
+  BREAK-ENCHANTMENT-LIMITED: '&cYou can''t break this!'
+  BREAK-ENCHANTMENT-BAREBONES: '&cYou can''t break that block because &c&lBareBones
+    &cscenario is active.'
+  PLACE-ENCHANTMENT-LIMITED: You can't place this!
+  PLACE-ENCHANTMENT-BAREBONES: '&cYou can''t place that block because &c&lBareBones
+    &cscenario is active.'
+  NO-ENCHANTMENT: '&cYou can''t open enchantment because &c&lNoEnchants &cscenario
+    is active.'
+  NETHER-DISABLED: '&cYou can''t enter nether while it''s disabled.'
+  NETHER-DISABLED-BAREBONES: '&cYou can''t enter nether while &c&lBareBones &cscenario
+    is active.'
+  NETHER-WALLS: '&cYou can''t enter nether while BedrockWalls is under 500.'
+  NETHER-BED: '&cYou can''t place beds in nether.'
+  LIMITEDP4-ADDED: '&cAs you have enchanted with P4 and LimitedP4 is enabled you have
+    been blacklisted from enchanting with P4 again!'
+  LIMITEDP4-BLOCKED: '&cYou can no longer craft another P4 because you have already
+    crafted one!'
+  NOTACTIVE: '&cThere is no active scenarios at the moment.'
+  DISABLEALL: '&cAll scenarios have been disabled.'
+WORLD_TELEPORT: '{prefix} &aYou''ve been teleport to &e{worldName}&a.'
+LOBBY_SET: '{prefix} &aYou have successfully updated the lobby location.'
+TEAM:
+  JOINED: '{teamPrefix} &aYou have joined &b{teamOwner}''s &ateam.'
+  PLAYER-JOINED-TEAM: '{teamPrefix} &b{player} &ahas joined your party.'
+  PLAYER-LEFT-TEAM: '{teamPrefix} &b{player} &ahas left your party.'
+  LEFT: '{teamPrefix} &aYou have left &b{teamOwner}''s &ateam.'
+  CREATED-BROADCAST: '{teamPrefix} &eTeam &9#{id} &ehas been created by &9{player}&e.'
+  MAX-REACH: '{teamPrefix} &eTeam size can''t be bigger than {max}.'
+  ENABLED: '{teamPrefix} &eTeams are now active by &a{player}&e.'
+  DISABLED: '{teamPrefix} &eTeams are now disabled by &a{player}&e.'
+BORDER:
+  SHRUNK: '{borderPrefix} &fBorder has shrunk to &6{size} blocks&f.'
+  SHRINKING:
+    MINUTES: '{borderPrefix} &fBorder is going to shrink to &6{nextSize} &fblocks
+      in &6{time} minute(s)&f.'
+    SECONDS: '{borderPrefix} &fBorder is going to shrink to &6{nextSize} &fblocks
+      in &6{time} second(s)&f.'
+    MANUAL: '&eShrinking border to {size} blocks...'
+  CANT-GO-THROUGH: '{prefix} &eYou can''t go through the border'
+  USAGE: '&cCorrect usage: /border <size>'
+  INVALID: '&cPlease use numbers.'
+  CANT-BE-LOWER: '&cBorder can''t be lower than {size}.'
+  CANT-BE-HIGHER: '&cBorder can''t be greater or equal to {size}.'
+  UNABLE: '&cUnable to use that border.'
+  AVAILABLE: '&cAvailable borders&7: &e {borders}&c.'
+  CANT-SHRINK: '&cCan''t shrink manual right now. BedrockWalls is about to shrink
+    to {size} blocks.'
+  CANT-GO-LOWER: '&eBorder can''t go lower.'
+TIMES:
+  HEAL: '{prefix} &fFinal Heal &6is now given to all players.'
+  PVP: '{prefix} &fPvP &6has been activated, be careful now.'
+RANDOM-PORT:
+  SUCCESS: '{prefix} &fYou''ve been teleported to &6{target}&f.'
+  FAIL: '{prefix} &eFailed to find player for you to teleport to!'
+DISQUALIFIED:
+  BROADCAST: '{prefix} &c{player} &ehas been disqualified due to disconnecting for
+    to long.'
+  ON-JOIN: '{prefix} &b&lYou were disqualified due to disconnecting for to long. Your
+    data is saved, please contact staff if you think this is an issue.'
+  LOGGER-DIED: '{prefix} &b&lYou were disqualified because your logger died. Your
+    data is saved, please contact staff if you think this is an issue.'
+RESPAWN:
+  PLAYER: '{prefix} &fYou have successfully respawned &6{target}&f.'
+  TARGET: '{prefix} &fYou have received a respawn by &6{player}. &fHave fun playing.'
+  USAGE: '&cCorrect usage: /respawn <player> <reason>'
+  ERROR: '&cThat player doesn''t have respawn data.'
+  NOT-IN-GAME: '&cYou can''t do this command while game is not running.'
+  MENU-OPEN: '&e{staffmember} has opened the respawn menu for {player}. Reason:&f
+    {reason}'
+DESPAWN:
+  USAGE: '&cCorrect usage: /despawnlogger <player>'
+  ERROR: '&cThat player does not have a logger.'
+  NOT-IN-GAME: '&cYou can''t do this command while game is not running.'
+  MENU-OPEN: '&e{staffmember} has despawned the logger for {player}.'
+TIME-BOMB-EXPLODED: '&7[&eTimeBomb&7] &9{player}''s &fCorpse has just exploded.'
+SAFE-LOOT-DENIED: '&7[&9SafeLoot&7] &eYou''re not allowed to access this chest. You''re
+  not the killer, only &9{accessor} &ehas access to it.'
+NO-CLEAN:
+  CANT-DAMAGE: '&7[&9NoClean&7] &eYou can''t damage that player. He has no clean for
+    another {seconds} second(s).'
+  REMOVED-HIT: '&7[&9NoClean&7] &eYour no clean has been removed because you hit &9{player}&e.'
+  RECEIVED: '&7[&9NoClean&7] &eYou are now protected from damage for {seconds} seconds.'
+FREEZE:
+  TARGET: '{prefix} &eYou have been &9frozen &eby &a{player}&e.'
+  PLAYER: '{prefix} &eYou have successfully &9frozen &a{target}&e.'
+UNFREEZE:
+  TARGET: '{prefix} &eYou have been &9unfrozen &eby &a{player}&e.'
+  PLAYER: '{prefix} &eYou have successfully &9unfrozen &a{target}&e.'
+FREEZE-ALL: '{prefix} &cAll players have been frozen by &c&l{player}&c.'
+FREEZE-UNALL: '{prefix} &cAll players have been unfrozen by &c&l{player}&c.'
+FREEZE-USAGE: '&cCorrect usage: /freeze <player>'
+FREEZE-ERROR: '&cPlayer is currently offline or their data is not loaded.'
+BROADCASTER:
+  DIAMONDS: '{prefix} &e{player} &bis mining diamonds. &eLocation&7: &b{location}'
+  GOLD: '{prefix} &e{player} &6is mining gold. &eLocation&7: &b{location}'
+HEALTH-HIT: '{prefix} &a{target} &eis now at &a{health} &4&l{symbol}&e.'
+HEALTH-COMMAND:
+  NORMAL: '{prefix} &a{target} &eis currently at &a{health} &4&l{symbol}&e.'
+  OFFLINE: '&cThat player is currently offline'
+LAG-CLEARED: '{prefix} &eSuccessfully cleared all &6&lENTITIES &efrom worlds. Total&7:
+  &6{total}&e.'
+BETTER-ENCHANT_ENCHANT-REMOVED: '{prefix} &eSuccessfully removed enchant from your
+  book'
+BETTER-ENCHANT_CANT-REMOVE: '{prefix} &cFailed while processing this event, your inventory
+  is full.'
+VOTES:
+  SCENARIOS:
+    ALREADY-VOTED: '{prefix} &eYou have already voted for &b{scenario}&e.'
+    UNCASTED: '{prefix} &eYou have uncasted your vote for &b{scenario}&e.'
+    CASTED: '{prefix} &eYou have &asuccessfully &ecasted your vote to &b{scenario}&e.'
+    DIDNT-VOTED: '{prefix} &eYou didn''t voted for any scenarios.'
+    NO-ENABLED-SCENARIOS: '{prefix} &eThere is no enabled scenarios to vote for.'
+    DIDNT-VOTED-FOR-SCENARIO: '{prefix} &eYou didn''t vote for &b{scenario}&e.'
+    DISABLED: '&eVote System is currently disabled.'
+  CONFIGS:
+    ALREADY-VOTED: '{prefix} &eYou have already voted for &b{config}&e.'
+    UNCASTED: '{prefix} &eYou have uncasted your vote for &b{config}&e.'
+    CASTED: '{prefix} &eYou have &asuccessfully &ecasted your vote to &b{config}&e.'
+    DINT-VOTED: '{prefix} &eYou didn''t voted for any configs.'
+    DINT-VOTED-FOR-CONFIG: '{prefix} &eYou didn''t voted for &b{config}&e.'
+WHITELIST:
+  'ON': '{prefix} &eYou have &asuccessfully &ewhitelisted server.'
+  'OFF': '{prefix} &eYou have &asuccessfully &eunwhitelisted server.'
+  LIST: '{prefix} &eThere are &a{amount} &ewhitelisted players&7: &a{list}&e.'
+  CLEAR: '{prefix} &eYou have &asuccessfully &ecleared whitelist.'
+  ALL: '{prefix} &eYou have &asuccessfully &ewhitelisted all online players.'
+  ADDED: '{prefix} &eYou have &asuccessfully &ewhitelisted &a{player}&e.'
+  REMOVED: '{prefix} &eYou have &asuccessfully &eunwhitelisted &a{player}&e.'
+STARTER-INVENTORY:
+  SAVED: '{prefix} &eStarter inventory is now &asuccessfully &esaved.'
+  GIVE: '{prefix} &eYou have received starter inventory.'
+GIVE-ALL:
+  TO-ONLINE: '{prefix} &eYou have received &6{amount}x &eof &6{type} &efrom the server.'
+  TO-PLAYER: '{prefix} &eYou have &asuccessfully &egave &6{amount}x &eof &6{type}
+    &eto game players.'
+  USAGE: '&cCorrect usage: /giveall <item> <amount>'
+  INVALID: '&cYou entered invalid material.'
+  INVALID-AMOUNT: '&cYou entered invalid amount.'
+  GAME-NOT-RUNNING: '&cIt seems that game is not running at the current time.'
+WORLD-BORDER-CHUNKS:
+  LOADED: '{prefix} &eUHC chunks are now loaded, restarting server in 5 seconds.'
+REBOOT: '{prefix} &cServer is rebooting in &4{format}&c.'
+COSMETICS:
+  ARROW-TRAIL:
+    APPLIED: '{prefix} &aYou have successfully activated your {cosmetic} &aarrow cosmetic.'
+  ROD-TRAIL:
+    APPLIED: '{prefix} &aYou have successfully activated your {cosmetic} &afishing
+      rod cosmetic.'
+  NOT-ENOUGH-POINTS: '{prefix} &cYou don''t have enough &c&lPOINTS &cto make this
+    trail active.'
+  PERMISSION: '{prefix} &cYou don''t have permission to make this trail active.'
+POINTS:
+  PER-KILL: '{prefix} &eYou have received &a{points} &e&lPOINTS &efor killing &6{player}&e.'
+  PER-WIN: '{prefix} &eYou have received &a{points} &e&lPOINTS &efor wining this game.'
+  USAGE: '&cInvalid! Please do /points <player> <give/remove> <amount>'
+  CHECK: '&e{player} has {data} points.'
+  ERROR: '&cPlayer is currently offline or their data is not loaded.'
+  INT-ERROR: '&cYou did not enter a valid amount!'
+  GIVE: '&eGave {player} {amount} points.'
+  REMOVED: '&eRemoved {amount} points from {player}.'
+ALERTS:
+  GOLD: '&7[&6G&7] &6{player} &ffound &6{amount} gold. {niceLocation}&f. Total: {totalMined}'
+  DIAMONDS: '&7[&bD&7] &b{player} &ffound &b{amount} diamonds. {niceLocation}&f. Total:
+    {totalMined}'
+  PVP: '&7[&4PvP&7] &c{player} &eis currently fighting &c{target}&e. {niceLocation}&e.'
+  iPVP: '{prefix} &eIt seems that &a&l{player} &eis trying to ipvp someone. &7(Don''t
+    ban player just by seeing this message)'
+  iPVP-TO-PLAYER: '{prefix} &eIpvp is disabled on this server.'
+PRACTICE:
+  ENABLED: '{prefix} &ePractice has been &aenabled &eby &6{player}&e.'
+  DISABLED: '{prefix} &ePractice has been &cdisabled &eby &6{player}&e.'
+  JOINED: '{prefix} &eYou''ve joined practice arena.'
+  LEFT: '{prefix} &eYou have left practice arena.'
+  ALREADY-IN-ARENA: '{prefix} &eYou''re already playing in the practice arena.'
+  NOT-IN-ARENA: '{prefix} &eYou''re not currently playing in the practice arena.'
+  DISABLED-ERROR: '{prefix} &4Practice &cis not currently available.'
+  FULL: '{prefix} &cPractice is currently full.'
+  MAX-PLAYER-UPDATE: '{prefix} &6{player} &ehas updated max players of practice to
+    &6{amount}&e.'
+  LOCATION-UPDATE: '{prefix} &eYou have successfully updated practice arena spawn
+    location.'
+  KIT-UPDATE: '{prefix} &eYou have successfully updated practice arena kit.'
+  ALREADY-ENABLED: '{prefix} &ePractice arena is already &aenabled&e.'
+  LOBBYMODE-ONLY-ENABLE: '{prefix} &cYou can &c&lENABLE &cpractice in lobby mode only.'
+  LOBBYMODE-ONLY-DISABLE: '{prefix} &cYou can &c&lDISABLE &cpractice in lobby mode
+    only.'
+  NOT-IN-WORLD: '{prefix} &cYou are not in the uhc_practice world!'
+LONG-SHOTS-SHOT: '{prefix} &6{player} &egot &6Long Shot &eof &6{blocks} &eblocks.'
+SWITHEROO: '{prefix} &eYou got &6Switcheroo''d &ewith &6{player}&e.'
+AUTO-START:
+  STARTED: '{prefix} &eAuto start has been activated since game got required amount
+    of player.'
+  CANCELLED: '{prefix} &eAuto start has been cancelled since game don''t have required
+    amount of player.'
+  FORMAT: '{prefix} &eScatter will begin in &6{format}&e.'
+SPECTATOR-CHAT:
+  ENABLED: '{prefix} &eYour spectator chat has been turned &aON&e.'
+  DISABLED: '{prefix} &eYour spectator chat has been turned &cOFF&e.'
+  USAGE: '&cCorrect usage: /{label} <add|remove> <player>'
+  OFFLINE: '&C{player} is currently offline.'
+  ALREADY-SPECTATING: '&cThat player is already spectating.'
+  CANT-REMOVE-WHEN-SCATTER: '&cYou can''t remove players from spectator while scatter
+    is running.'
+  NOT-SPECTATING: '&cThat player is not currently spectating.'
+  CURRENTLY-HOST: '&cThat player is currently host and can''t be removed from hosting.
+    Use /removehost instead.'
+LOGIN:
+  DEATH-KICK: '{prefix} &7[&eDeathKick&7] &cYou died in this uhc.'
+  REBOOT: '{prefix} &cYou can''t join. Server is rebooting in &4{seconds} &cseconds.'
+  CHUNKS: '{prefix} &eChunks are currently loading. &7[&e{percentage}%&7]'
+  SPECTATE: '{prefix} &cYou can''t spectate this uhc game.'
+LATE-SCATTERED: '{prefix} &eYou have been late scattered.'
+CANT-SPECTATE: '{prefix} &cYou can''t spectate more than &c&l{size} blocks&c.'
+HOST:
+  ALREADY-SET: '{prefix} &eThe host is already set. &6{host} &eis currently hosting
+    this game.'
+  NOT-SET: '{prefix} &eThe host is currently not set. Use /sethost instead.'
+  CORRECT-USAGE: '{prefix} &cCorrect usage: /sethost <player>'
+  NOT-ONLINE: '{prefix} &cThat player is currently offline.'
+  BROADCAST-SET: '{prefix} &6{host} &eis now the host of this uhc game, be sure to
+    ask for help.'
+  BROADCAST-REMOVED: '{prefix} &6{host} &ehas been removed from hosting this uhc game.
+    &7(&fRemoved by &6{player}&7).'
+SCATTERED:
+  PLAYER: '{prefix} &eYou''ve scattered &a{target}&e.'
+  TARGET: '{prefix} &eYou''ve been scattered by &a{player}&e.'
+  USAGE: '&cCorrect usage: /scatter <player>'
+  OFFLINE: '&cThat player is currently offline.'
+  ERROR: '&cInvalid targets profile.'
+  ALREADY-PLAYING: '&cThat player is already playing.'
+  NOT-RUNNING: '&cYou can''t do this command while game is not running.'
+RESCATTERED:
+  USAGE: '&cCorrect usage: /rescatter <player>'
+  PLAYER: '{prefix} &eYou''ve re-scattered &a{target}&e.'
+  OFFLINE: '&cThat player is currently offline.'
+  NOT-RUNNING: '&cYou can''t do this command while game is not running.'
+  ERROR: '&cInvalid targets profile.'
+  NOT:
+    ALREADY-PLAYING: '&cThat player is not already playing.'
+MOD:
+  ADDED: '{prefix} &6{target}''s &espectator mode has been &aEnabled &eby &6{player}&e.'
+  REMOVED: '{prefix} &6{target}''s &espectator mode has been &cDisabled &eby &6{player}&e.'
+HELPOP:
+  TO-STAFF: '{prefix} &7(&2Request&7) &a{player} &7has requested staff help&7: &f{message}'
+  TO-PLAYER: '{prefix} &aYou have sent your request to all online staff.'
+  CANT-SEND: '{prefix} &cYou can''t use request ability for another &c&l{seconds}
+    &csecond(s).'
+  USAGE: '&cCorrect usage: /helpop <message>'
+THANKCOMMAND:
+  CANT-SEND: '{prefix} &cYou can''t use the thank ability for another &c&l{seconds}
+    &csecond(s).'
+  SEND: '{prefix} &b&l{player} thanked the Host!'
+REPORT:
+  TO-STAFF: '{prefix} &7(&2Report&7) &a{player} &7has reported &a{target} &7for &f{message}'
+  TO-PLAYER: '{prefix} &aYour report has been successfully sent to all online staff.'
+  CANT-SEND: '{prefix} &cYou can''t use report ability for another &c&l{seconds} &csecond(s).'
+  USAGE: '&cCorrect usage: /report <player> <message>'
+  CURRENTLY-OFFLINE: '&cThat player is currently offline.'
+HEAL:
+  TARGET: '{prefix} &eYou have been healed by &6{player}&e.'
+  PLAYER: '{prefix} &eYou have &asuccessfully &ehealed &6{target}&e.'
+  ALL: '{prefix} &eYou have &asuccessfully &ehealed all online players.'
+  USAGE: '&cCorrect usage: /heal <player>'
+  ERROR: '&c{player} is currently offline!'
+DOUBLE_OR_NOTHING_FAIL: '{prefix} &7[&bDoubleOrNothing&7] &eYou didn''t had luck.
+  Good Luck next time.'
+HYPIXEL_HEAD_USED: '{prefix} &eYou have successfully used head, now you got &bRegeneration
+  III &efor &c4 seconds &eand &bSpped II &efor &c20 seconds&e.'
+VANISH:
+  'ON': '{prefix} &eYou have &aenabled &eyour vanish mode. You''re now hiden from
+    online players'
+  'OFF': '{prefix} &eYou have &cdisabled &eyour vanish mode. You''re no longer hiden
+    from online players'
+SKY_HIGH:
+  WARNING: '{prefix} &7[&bSkyHigh&7] &4&lWARNING&7: &cYou must go above &c&lY:<y>
+    &cor you will be taking 1 heart down every 30 seconds.'
+SCATTER-MESSAGES:
+  LOADING: '{prefix} &aLoading scatter locations...'
+  PLAYER-LOCATION: '{prefix} &aYour scatter location&7: &b<niceLocation>'
+PVP_FORCE_ENABLED: '{prefix} &eYou have &aenabled &epvp in uhc world.'
+PVP_FORCE_DISABLED: '{prefix} &eYou have &cdisabled &epvp in uhc world.'
+RULES:
+  CANT-SEND-MESSAGE-WHILE-RULES: '{prefix} &cYou can''t talk until rules are finished!'
+  CURRENTLY-LISTING: '&cRules are currently listing in chat.'
+  CANT-SEND-MESSAGE-BEFORE-GRAVE: '{prefix} &cYou can''t talk until grace period ends!'
+TRACKER:
+  FIND: '{prefix} &eYou''re now tracking &b<target>&7. &eDistance &7(&b<blocks> blocks&7)'
+  NO-FOUND: '{prefix} &cWe couldn''t find player to track around you.'
+GAME:
+  STARTING: '{prefix} &eGame is going to start in &6{time}&e.'
+MLG:
+  PLAYER: '&eYou have accepted the MLG challenge! You will be teleported in a moment!'
+  PLAYER-LUCK: '&eGood luck!'
+  GLOBAL: '{prefix} &e{player} has accepted the MLG challenge!'
+  USAGE: '&cCorrect usage: /mlg'
+GOLDENHEAD:
+  ALL: '&7You sent a Golden Head to all online users.'
+  RECEIVE: '&7You received a Golden Head.'
+  SENT: '&7You sent {player} a Golden Head.'
+  ALLUSAGE: '&cCorrect usage: /goldenheadall'
+  USAGE: '&cCorrect usage: /goldenhead <player>'
+  NOT-ONLINE: '&cUser is not online!'
+PARTY:
+  ALREADYINVITED: '&cPlayer already has party invite.'
+  ALREADYINPARTY: '&cPlayer is already in a party.'
+  SETTINGSERROR: '&cParty settings can''t be edited while uhc is FFA.'
+  NOTINPARTY: '&cYou''re not in a party.'
+  DISABLED: '&eParties are currently disabled.'
+  CANTEDITNOW: '&cYou can''t edit parties now. (Lobby mode only).'
+  CANTEDIT: '&cYou can''t edit parties.'
+  CLEAR: '&aYou''ve successfully cleared all parties.'
+  NUMBERERROR: '&cPlease use numbers for party size.'
+  SETPARTYSIZE: '&cYou have set parties size to &e{size}&f.'
+  PARTYINFFA: '&cParty settings can''t be edited while uhc is FFA.'
+  PARTYCHATSTATUS: '&eYou party chat is now {status}&e.'
+  NOPARTYPENDINGINVITES: '&cYou don''t have any pending party invites.'
+  NOPARTYPENDINGINVITESPLAYER: '&cYou don''t have any pending invites.'
+  PARTYOWNERLEAVE: '&cYou can''t leave your party. Use /party disband instead.'
+  CANTDISBAND: '&cYou can''t disband this party. You must be the leader.'
+  DISBANDED: '&eYou have disbanded your party.'
+  PLAYEROFFLINE: '&cThat player is currently offline.'
+  INVITINGSELF: '&cYou can''t invite yourself to the party.'
+  MUSTBELEADER: '&cYou must be the party leader to invite other members.'
+  PLAYERNOTINPARTY: '&cThat player is not in a party.'
+  KICKSELF: '&cYou can''t kick yourself from the party.'
+  KICKOTHERS: '&cYou must be the party leader to kick other members.'
+  CANTFINDPLAYER: '&cCould not find player.'
+  KICKED: '&cYou were kicked from your current party.'
+  PLAYERKICKED: '&a{kickedplayer} &ehas been kicked from the party.'
+CONFIGMANAGEMENT:
+  SAVED: '&eSuccessfully saved configurations. &f(Scenarios, configs and game type)&e.'
+  RENAME: '&aEnter new name for your config or type &e''cancel'' &ato cancel procedure.'
+  STARTUPERROR: '&cOnly one config can be set to enable on startup. Please disable
+    another one.'
+  LOADED: '&eSuccessfully loaded configurations. &f(Scenarios, configs and game type)&e.'
+SETTINGS:
+  ERROR: '&cYou don''t have permission to load/save configs.'
+  NOACTIVESCENARIOS: '&cThere are no active scenarios at the moment.'
+  NOPERMISSIONSCENARIOS: '&cYou don''t have permission to enable/disable scenarios.'
+MOLES:
+  NOT-ACTIVE: '&cMoles are not active currently!'
+  INGAME-ONLY: '&cYou can use this command in-game only!'
+  NOT-A-MOLE: '&cYou are not currently mole!'
+  SIZE: '&eThere is currently &b{size} moles &ein this game&7: &f{molelist}'
+  LIST: '{prefix} &eThere is currently &b<moles> moles &ein this game&7: &c<moles>'
+  CHAT-ENABLED: '{prefix} &eYour moles chat has been &aenabled&e.'
+  CHAT-DISABLED: '{prefix} &eYour moles chat has been &cdisabled&e.'
+  LOADED: ' {0}&aMoles have been loaded successfully!{0}&a&lTotal Moles&7: &b<moles>
+    {0} '
+  SELECTED: '{prefix} &aYou have been selected to be a mole, try to kill other players
+    and team up with other moles. {0} &aYou can use &b/moles chat &ato toggle moles
+    chat!'
+LEADERBOARDS:
+  UPDATE: '&aUpdating leaderboards...'
+  UPDATED: '&aAll leaderboards have been updated.'
+  DROPPED: '&eYou have dropped all data collections.'
+  DATA-NOT-FOUND: '&cData of player {player} can''t be found!'
+  DATA-VALUE-NOT-FOUND: '&cData value for {player} can''t be found!'
+  DATA-DELETED: '&cData of player {player} has been deleted!'
+  NUMBER-INVALID: '&cPlease use numbers for amount you want to enter!'
+  SET: '&eYou''ve set &f{data} of &f{player} &eto &f{size}&e.'
+DISCORDANNOUNCE:
+  NOT-STARTED: '&cAuto start is not currently in progress!'
+  SENT: '&aDiscord announcement successfully sent!'
+  COOLDOWN: '&cThere is currently cooldown on this command.'
+  GAME-STARTED: '&cYou can''t use this command since the game has already started.'
+UHCCOMMAND:
+  ALREADYSTARTED: '&cThe game has already started.'
+  START-PERMISSION: '&cThe start argument requires the permission node - uhc.start'
+  NOPLAYERS: '&eThere is no players to start the game.'
+  STARTED: '&eYou''ve successfully started uhc.'
+  RELOADED: '&eYou have successfully reloaded UHC.'
+  RELOADED-PERMISSION: '&cThe reload argument requires the permission node - uhc.reload'
+  SETLOBBY-PERMISSION: '&cThe setlobby argument requires the permission node - uhc.setlobby'
+  SETPVP-INGAME-ERROR: '&cThis command can only be used when the game is running!'
+  SETPVP-PERMISSION: '&cThe setpvp argument requires the permission node - uhc.setpvp'
+  CHECKRELOG: '&eSuccessfully checked relogged players.'
+  CHECKRELOG-ERROR: '&eThere wasn''t relogged players to eliminate.'
+  STOPLOADING-PERMISSION: '&cThe stoploading argument requires the permission node
+    - uhc.stoploading'
+  REBOOT-PERMISSION: '&cThe reboot argument requires the permission node - uhc.reboot'
+  REBOOT-NOT-RUNNING: '&eReboot is not running at the moment!'
+  REBOOT-CANCELED: '&eYou have successfully cancelled reboot.'
+  REBOOT-ALREADY-RUNNING: '&eReboot is already running, cancel it with &f''/uhc reboot
+    cancel''&e.'
+  REBOOT-FORMAT: '&eYou have entered wrong format.'
+  REBOOT-FORMAT-USAGE: '&cExample: /uhc reboot 1h1m1s'
+  REBOOT-START: '&eYou''ve started reboot.'
+  AUTOSTART-ACTIVE: '&cAutostart is currently active. Please disable it with /autostart
+    off before forcing this game to begin!'
+  PRACTICE-ERROR: '&cYou can not start the game while practice is enabled!'
+HOLOGRAMS:
+  WINS-MOVED: '&bWins hologram &esuccessfully moved.'
+  KILLS-MOVED: '&bKills hologram &esuccessfully moved.'
+  DEATHS-MOVED: '&bDeaths hologram &esuccessfully moved.'
+  GAMESPLAYED-MOVED: '&bGames Played hologram &esuccessfully moved.'
+  KILLSTREAK-MOVED: '&bKill Streak hologram &esuccessfully moved.'
+  GOLDENAPPLES-MOVED: '&bGolden Apples hologram &esuccessfully moved.'
+  GOLDENHEADS-MOVED: '&bGolden Heads hologram &esuccessfully moved.'
+  BOWSHOTS-MOVED: '&bBow Shots hologram &esuccessfully moved.'
+  GOLD-MOVED: '&bGold hologram &esuccessfully moved.'
+  IRON-MOVED: '&bIron hologram &esuccessfully moved.'
+  DIAMOND-MOVED: '&bGold hologram &esuccessfully moved.'
+  EMERALD-MOVED: '&bGold hologram &esuccessfully moved.'
+  REDSTONE-MOVED: '&bGold hologram &esuccessfully moved.'
+  LAPIS-MOVED: '&bGold hologram &esuccessfully moved.'
+  QUARTZ-MOVED: '&bGold hologram &esuccessfully moved.'
+  COAL-MOVED: '&bGold hologram &esuccessfully moved.'
+  SPAWNERS-MOVED: '&bGold hologram &esuccessfully moved.'
+  POINTS-MOVED: '&bPoints hologram &esuccessfully moved.'
+  NO-API: '&cHologramAPI can''t be found, action is not allowed!'
+  NO-MAP: '&cHologramAPI can''t be used when the map is not generated!'
+INVSEE:
+  USAGE: '&cCorrect usage: /invsee <player>'
+  ERROR: '&cPlayer is currently offline.'
+AUTOSTART:
+  NOT-IN-PROGRESS: '&cAuto start is not currently in progress!'
+  CANCELED: '&cYou have successfully cancelled auto start.'
+  GAME-STARTED: '&cThe game has already started.'
+  ALREADY-ACTIVE: '&cAuto start is already active. Use /autostart off instead!'
+  WRONG-FORMAT: '&eYou have entered wrong format.'
+  USAGE: '&cExample: /autostart 1h1m1s'
+  STARTING: '&aUHC is going to start in {time}.'
+KILLS:
+  NONE: '&eYou don''t have any kills.'
+  OFFLINE: '&cPlayer is currently offline.'
+  NONE-OTHER: '&eThat player doesn''t have any kills.'
+TP:
+  USAGE: '&cCorrect usage: /tp <player>'
+  NOT-ONLINE: '&cThat player is not currently online.'
+STATS:
+  OFFLINE: '&cPlayer is currently offline or their data is not loaded.'
+STAFFTP:
+  USAGE: '&cCorrect usage: /teleport <player> [player] or /teleport <x> <y> <z> [player]'
+  INVALID-CORDS: '&cInvalid coordinates.'
+  USER-OFFLINE: '&cThat user is not online!'
+  TELEPORTED-CORDS: '&eTeleported to: {x},{y},{z}.'
+  TELEPORTED-OTHER-CORDS: '&eTeleported {player} to: {x},{y},{z}.'
+  TELEPORTED-PLAYER-CORDS: '&eYou were teleported to: {x},{y},{z}.'
+  TELEPORTED-OTHER-PLAYER: '&eTeleported {player} to {target}.'
+  TELEPORTED: '&eTeleported to {target}.'
+DISABLED:
+  INVIS: '&cInvisibility potions are currently disabled.'
+  STRENGTH: '&cStrength potions are currently disabled.'
+  SPEED: '&cSpeed potions are currently disabled.'
+  GOLDEN-HEADS: '&cGolden Heads are currently disabled.'
+  GOLDEN-APPLES: '&cGod Apples are currently disabled.'
+NIGHTVISION:
+  ENABLED: '&eNight vision enabled.'
+  DISABLED: '&eNight vision disabled.'
+UBL:
+  ENABLED: '&eUBL is currently &a&lENABLED.'
+  DISACORD: '&eUBL is currently &c&lDISABLED.'
+ASSIGN:
+  USAGE: '&cInvalid! Please do /assign <player> <add/remove> <partyhostname>'
+  PLAYER-ERROR: '&c{player} is currently offline!'
+  PARTY-ERROR: '&cThat player does not have a party!'
+  PARTY: '&eAdded {player} to {target}''s party!'
+  REMOVED-PARTY: '&eRemoved {player} from {target}''s party!'
+  NOT-IN-PARTY: '&c{player} is not in {target}''s party!'
+BUILDUHC:
+  USAGE: '&cUsage: /builduhckit <set/default>'
+  KIT-UPDATE: '&cUpdated the BuildUHC kit!'
+SUPERHEROS:
+  ENABLED: '&aYour super hero effects have been added!'
+DND:
+  CANT-DAMAGE: "&c&lDoNotDisturb &8\xbb &cYou can't hit this player!"
+  CAN-FIGHT: "&c&lDoNotDisturb &8\xbb &aYou can fight other players now!"
+  ONLY-FIGHT: "&c&lDoNotDisturb &8\xbb &cYou only can fight with &b{damager}!"
+  IN-FIGHT: "&c&lDoNotDisturb &8\xbb {damaged} is currently in a DND fight!"
+LAFS:
+  PLAYER-ALREADY-IN-PARTY: '&cThat player is already part of a party! Run around to
+    find other teammates.'
+  PLAYER-ADDED: '&e{damaged} has been added to your party!'
+  ADDED: '&eYou have been added to {damagers} party!'
+  PARTY-CREATED: '&eYou have created a party and added {damaged} to your party!'
+  CANT-MODIFY-PARTY: '&cYou can not modify parties while LAFS is enabled!'
+REDVSBLUE:
+  CANT-MODIFY-PARTY: '&cYou can not modify parties while Red VS Blue is enabled!'
+LUCKYROULETTE:
+  COMING: '&aA LuckyRoulette round is coming...'
+  GIVEN: '&b{player} &egets a(n) &a{item} &ethanks to the roulette.'
+  ENABLED: '&aLuckyRoulette has been enabled!'
+SOUP:
+  ERROR: '&cYou are at full health so you can not use this soup!'
+TWITTER:
+  ERROR: '&cAn error while trying to post tweet, is tweet api hooked?'
+  SENT: '&ePosted Tweet: {tweet}'
+TWEET-TWEETED: '{prefix} &aYou have successfully tweeted uhc game. &7({tweet-name}&7]'
