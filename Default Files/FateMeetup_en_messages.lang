@@ -1,6 +1,4 @@
 #This file is the default. Do not modify this file. Please create a PR in the translations folder to add a language following the contribution guide.
-#Plugin created by BGHDDevelopment. httsp://bghddevelopment.com
-#Please contact us if you need help: https://bghddevelopment.com/discord
 
 JOIN_MESSAGE: '&d<player> &fjoined the game. &7[&d<current_online>/<max_players>&7]'
 JOINMESSAGE:
